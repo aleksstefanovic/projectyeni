@@ -1,0 +1,6 @@
+Set oVoice = CreateObject("SAPI.SpVoice")
+set oSpFileStream = CreateObject("SAPI.SpFileStream")
+oSpFileStream.Open "C:\Aca\Computer Customization\Sounds\Yeni - Wav\Talking\WhatAreYou_0001.wav"
+oVoice.SpeakStream oSpFileStream
+oSpFileStream.Close
+

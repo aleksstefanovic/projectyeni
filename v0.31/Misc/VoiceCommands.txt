@@ -1,0 +1,37 @@
+Tech/Analog Commands:
+what is the temperature
+temperature
+what's the temperature
+how warm is it
+how cold is it
+
+Sound/Music Commands:
+play music
+coding music
+
+General/Talking Commands:
+what are you
+hello
+hey
+hello there
+what's up
+waz up
+hey there
+hi
+hi there
+how's life
+how's it going
+yeni
+computer
+I need something
+i need you
+quickly
+thanks
+thank you
+thanks yen
+thank you yeni
+good job
+nice
+good work
+as great as always yeni
+

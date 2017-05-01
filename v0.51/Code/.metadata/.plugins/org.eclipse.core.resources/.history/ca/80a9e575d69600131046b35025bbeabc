@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for greetings
+ */
+
+grammar hello;
+
+public <greet> = (Good morning | Hello) ( Bhiksha | Evandro | Paul | Philip | Rita | Will );
+public <cities> = Toronto;
+public <swearing> = Fuck [You];
+public <names> = Yeni;

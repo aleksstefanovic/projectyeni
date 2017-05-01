@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<speechMacros>
+<command>
+<listenFor>What is the temperature</listenFor>
+<listenFor>temperature</listenFor>
+<listenFor>What's the temperature</listenFor>
+<listenFor>how warm is it</listenFor>
+<listenFor>how cold is it</listenFor>
+
+<script language='VBScript'>
+<![CDATA[
+Set file = CreateObject("Scripting.FileSystemObject").OpenTextFile("C:\Aca\Arduino\Sketches\TempSensor\temp.txt",1)
+text = file.ReadAll()
+file.Close
+Set file = Nothing
+
+Set VObj = CreateObject ("SAPI.SpVoice")
+VObj.Speak text
+]]>
+</script>
+</command>
+
+</speechMacros>
