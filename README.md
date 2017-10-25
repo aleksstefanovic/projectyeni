@@ -1,0 +1,1 @@
+Old prototype of the PandoraAndroid repo, a smart home application built using mainly Visual Basic. Includes speech recognition capabilities, and can read room temperature. 
